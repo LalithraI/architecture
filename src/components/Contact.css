@@ -1,6 +1,6 @@
 .contact {
   padding: 100px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #1a2332;
   position: relative;
   overflow: hidden;
 }
@@ -12,7 +12,7 @@
   right: -50%;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
   animation: float 20s infinite ease-in-out;
 }
 
@@ -66,12 +66,13 @@
 .icon-wrapper {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #0099ff, #00d4ff);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
 }
 
 .icon-wrapper svg {
@@ -115,12 +116,13 @@
 .social-icon {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #0099ff, #00d4ff);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 153, 255, 0.5);
 }
 
 .social-icon svg {
@@ -131,7 +133,7 @@
 
 .social-icon:hover {
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 212, 255, 0.7);
 }
 
 .contact-form-wrapper {
@@ -174,8 +176,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #0099ff;
+  box-shadow: 0 0 0 3px rgba(0, 153, 255, 0.2);
 }
 
 .form-group textarea {
@@ -187,18 +189,19 @@
   padding: 1.2rem 3rem;
   font-size: 1.1rem;
   font-weight: 600;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #0099ff, #00d4ff);
   color: white;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 153, 255, 0.6);
 }
 
 .submit-btn:hover:not(:disabled) {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.8);
+  background: linear-gradient(135deg, #00b4ff, #00f0ff);
 }
 
 .submit-btn:disabled {

@@ -1,7 +1,8 @@
 .footer {
-  background: #1a202c;
+  background: #1a2332;
   color: white;
   padding: 60px 0 30px;
+  border-top: 2px solid rgba(0, 153, 255, 0.3);
 }
 
 .footer-content {
@@ -26,7 +27,7 @@
 
 .logo-icon {
   font-size: 2rem;
-  background: linear-gradient(135deg, #FFD700, #FFA500);
+  background: linear-gradient(135deg, #00d4ff, #0099ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -63,7 +64,7 @@
 }
 
 .footer-links a:hover {
-  color: #667eea;
+  color: #00d4ff;
   transform: translateX(5px);
 }
 
@@ -118,7 +119,7 @@
 }
 
 .footer-social a:hover {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #0099ff, #00d4ff);
   transform: translateY(-3px);
 }
 
