@@ -50,17 +50,20 @@
 }
 
 .info-card {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(26, 35, 50, 0.6);
+  backdrop-filter: blur(20px);
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 153, 255, 0.2);
   transition: all 0.3s ease;
   animation: slideInLeft 0.6s ease-out;
 }
 
 .info-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 50px rgba(0, 153, 255, 0.3);
+  border-color: rgba(0, 212, 255, 0.4);
 }
 
 .icon-wrapper {
@@ -84,27 +87,29 @@
 .info-card h3 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #2d3748;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
 .info-card p {
-  color: #718096;
+  color: rgba(255, 255, 255, 0.8);
   line-height: 1.8;
 }
 
 .social-links {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(26, 35, 50, 0.6);
+  backdrop-filter: blur(20px);
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 153, 255, 0.2);
   animation: slideInLeft 0.8s ease-out;
 }
 
 .social-links h3 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #2d3748;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -137,10 +142,12 @@
 }
 
 .contact-form-wrapper {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(26, 35, 50, 0.6);
+  backdrop-filter: blur(20px);
   padding: 3rem;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 153, 255, 0.2);
   animation: slideInRight 0.6s ease-out;
 }
 
@@ -165,19 +172,25 @@
   width: 100%;
   padding: 1rem 1.5rem;
   font-size: 1rem;
-  border: 2px solid #e2e8f0;
+  border: 2px solid rgba(0, 153, 255, 0.3);
   border-radius: 10px;
-  background: white;
-  color: #2d3748;
+  background: rgba(26, 35, 50, 0.5);
+  color: #ffffff;
   transition: all 0.3s ease;
   font-family: inherit;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #0099ff;
-  box-shadow: 0 0 0 3px rgba(0, 153, 255, 0.2);
+  border-color: #00d4ff;
+  background: rgba(26, 35, 50, 0.7);
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.2);
 }
 
 .form-group textarea {
